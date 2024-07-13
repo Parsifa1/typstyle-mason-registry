@@ -1,0 +1,30 @@
+---
+name: typstyle
+description: |
+  Beautiful and reliable typst code formatter
+homepage: https://github.com/Enter-tainer/typstyle
+licenses:
+  - Apache-2.0
+languages:
+  - Typst
+categories:
+  - Formatter
+
+source:
+  id: pkg:github/Enter-tainer/typstyle@v0.11.28
+  asset:
+    - target: linux_x64_gnu
+      file: typstyle-linux-x64
+    - target: linux_arm64_gnu
+      file: typstyle-linux-arm64
+    - target: darwin_x64
+      file: typstyle-darwin-x64
+    - target: darwin_arm64
+      file: typstyle-darwin-arm64
+    - target: win_x64
+      file: typstyle-win32-x64.exe
+    - target: win_arm64
+      file: typstyle-win32-arm64.exe
+
+bin:
+  typstyle: "{{source.asset.file}}"
