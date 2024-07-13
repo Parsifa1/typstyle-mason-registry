@@ -26,5 +26,6 @@ source:
     - target: win_arm64
       file: typstyle-win32-arm64.exe
 
+
 bin:
   typstyle: "{{source.asset.file}}"
