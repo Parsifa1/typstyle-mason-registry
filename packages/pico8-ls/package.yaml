@@ -11,7 +11,7 @@ categories:
 
 source:
   # renovate:datasource=git-refs
-  id: pkg:github/japhib/pico8-ls@40ba6b7d7c6107b02f6a5b983f56d67469817160
+  id: pkg:github/japhib/pico8-ls@cb16048f3dffba7dec26c01e270be5d37f54a785
   build:
     run: |
       npm install
