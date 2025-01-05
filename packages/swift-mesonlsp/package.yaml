@@ -14,7 +14,7 @@ deprecation:
   since: v3.1.3
 
 source:
-  id: pkg:github/JCWasmx86/Swift-MesonLSP@v3.1.3
+  id: pkg:github/JCWasmx86/Swift-MesonLSP@v4.3.7
   asset:
     - target: linux_x64_gnu
       file: Swift-MesonLSP.zip
